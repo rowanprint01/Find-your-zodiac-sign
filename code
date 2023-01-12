@@ -1,0 +1,74 @@
+birth_day = int(input("Enter the day: "))
+birth_month = input("Enter the month: ")
+
+if birth_month == "December":
+    if birth_day > 22:
+        print(f"{birth_day} {birth_month} is Capricorn.")
+    else:
+        print(f"{birth_day} {birth_month} is Sagittarius.")
+
+if birth_month == "January":
+    if birth_day <= 19:
+        print(f"{birth_day} {birth_month} is Capricorn.")
+    else:
+        print(f"{birth_day} {birth_month} is Aquarius.")
+
+if birth_month == "February":
+    if birth_day <= 18:
+        print(f"{birth_day} {birth_month} is Aquarius.")
+    else:
+        print(f"{birth_day} {birth_month} is Pisces.")
+
+if birth_month == "March":
+    if birth_day <= 20:
+        print(f"{birth_day} {birth_month} is Pisces.")
+    else:
+        print(f"{birth_day} {birth_month} is Aries.")
+
+if birth_month == "April":
+    if birth_day <= 19:
+        print(f"{birth_day} {birth_month} is Aries.")
+    else:
+        print(f"{birth_day} {birth_month} is Taurus.")
+
+if birth_month == "May":
+    if birth_day <= 20:
+        print(f"{birth_day} {birth_month} is Taurus.")
+    else:
+        print(f"{birth_day} {birth_month} is Gemini.")
+
+if birth_month == "June":
+    if birth_day <= 20:
+        print(f"{birth_day} {birth_month} is Gemini.")
+    else:
+        print(f"{birth_day} {birth_month} is Cancer.")
+
+if birth_month == "July":
+    if birth_day < 22:
+        print(f"{birth_day} {birth_month} is Cancer.")
+    else:
+        print(f"{birth_day} {birth_month} is Leo.")
+
+if birth_month == "August":
+    if birth_day < 22:
+        print(f"{birth_day} {birth_month} is Leo.")
+    else:
+        print(f"{birth_day} {birth_month} is Virgo.")
+
+if birth_month == "September":
+    if birth_day <= 22:
+        print(f"{birth_day} {birth_month} is Virgo.")
+    else:
+        print(f"{birth_day} {birth_month} is Libra.")
+
+if birth_month == "October":
+    if birth_day <= 22:
+        print(f"{birth_day} {birth_month} is Libra.")
+    else:
+        print(f"{birth_day} {birth_month} is Scorpio.")
+
+if birth_month == "November":
+    if birth_day <= 21:
+        print(f"{birth_day} {birth_month} is Scorpio.")
+    else:
+        print(f"{birth_day} {birth_month} is Sagittarius.")
